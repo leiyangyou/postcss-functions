@@ -33,7 +33,7 @@
   "dependencies": {
     "glob": "^7.1.2",
     "object-assign": "^4.1.1",
-    "postcss": "^6.0.9",
+    "postcss": "^7.0.14",
     "postcss-value-parser": "^3.3.0"
   },
   "devDependencies": {
