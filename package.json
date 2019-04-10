@@ -8,7 +8,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "prepublish": "npm run build && del-cli dist/__tests__",
+    "prepare": "npm run build && del-cli dist/__tests__",
     "build": "del-cli dist && cross-env BABEL_ENV=publish babel src --out-dir dist",
     "pretest": "eslint src && npm run build",
     "test": "nyc ava src/__tests__/"
